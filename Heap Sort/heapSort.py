@@ -26,17 +26,16 @@ def sift(idx: int, n: int, v: List[int]):
         v[idxMax], v[idx] = v[idx] , v[idxMax]
         sift(idxMax, n, v)
 
-
 def heapSort(arr):
     N = len(arr)
 
     for j in range(N-1 , -1, -1):
         sift(j, len(arr), arr)
-
+    
     tam=len(arr)
     for i in range(0,N-1):
-        tam=-1
-        arr[0], arr[tam] = arr[tam], arr[0]
+        arr[0], arr[tam-1] = arr[tam-1], arr[0]
+        tam-=1
         c: int = int(ultimoPai(tam))
         while(c != 0):
             sift(c, tam, arr)
