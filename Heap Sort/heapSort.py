@@ -1,3 +1,8 @@
+'''
+    @author: Guilherme Vieira Silva Gonçalves
+    @course: Ciência da Computação, 4th semester
+    @algorithmComplexity: O(n log(n))
+'''
 from typing import List
 
 def fe(x: int):
