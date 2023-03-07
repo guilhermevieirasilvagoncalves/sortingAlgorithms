@@ -1,3 +1,8 @@
+'''
+    @author: Guilherme Vieira Silva Gonçalves
+    @course: Ciência da Computação, 5th semester
+'''
+
 def quicksort(v,p,r):
     if p < r:
         q = partition(v,p,r)
