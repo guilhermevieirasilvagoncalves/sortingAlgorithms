@@ -1,3 +1,8 @@
+/*
+    @author: Guilherme Vieira Silva Gonçalves
+    @course: Ciência da Computação, 5th semester
+*/
+
 #include <iostream>
 #include <climits>
 
